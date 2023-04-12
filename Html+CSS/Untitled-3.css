@@ -1,0 +1,97 @@
+*{
+    margin:  0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(steam1.jpg);
+    background-repeat: no-repeat;
+}
+
+.cima p {
+    color: rgb(0, 140, 255);
+    text-align: center;
+ }
+
+.titulocima {
+    background-color: rgb(42, 53, 70);
+    width: 100%;
+    height: 150px;
+    
+}
+
+.rodape {
+    background-color: rgb(26, 32, 41);
+    width: 100%;
+    height: 200px;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.rodape h2 {
+    color: rgb(0, 140, 255);
+}
+
+.rodape p {
+    color: rgb(1, 119, 155);
+}
+
+button {
+    background-color: rgb(42, 53, 70);
+    height: 20px;
+}
+
+button a {
+    color: rgb(0, 153, 255);
+    padding: 2em;
+}
+
+.titulocima button {
+    height: 40px;
+}
+
+.titulocima button a {
+    color: antiquewhite;
+    padding: 4em;
+}
+
+.cnter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.register {
+    background-color: rgb(42, 53, 70);
+    width: 35%;
+    height: 700px;
+    border-radius: 40px;
+}
+
+.register p {
+    color: aqua;
+}
+
+input[type=text]:focus {
+    border: 3px solid #000000;
+  }
+
+  input[type=password]:focus {
+    border: 3px solid #000000;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    background-color: rgb(26, 32, 41) ;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    text-align: center;
+    margin: 6px 4px;
+    cursor: pointer;
+  }
+
+input {
+    background-color: rgb(102, 143, 206);
+    height: 20px;
+}
